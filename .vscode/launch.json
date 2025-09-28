@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "JavaBasics",
+            "request": "launch",
+            "mainClass": "JavaBasics",
+            "projectName": "java_688219b"
+        }
+    ]
+} //
