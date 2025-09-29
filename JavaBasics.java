@@ -300,3 +300,47 @@ public class JavaBasics{
     }
  }
     */
+
+    //ARTHEMATIC OPERATORS IN JAVA
+    //binary operators : + , - , * , / , %
+   /* /{
+        public static void main(String args[]){
+            Scanner sc= new Scanner (System.in);
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            System.out.println("the value of a + b is " + (a + b));
+            System.out.println("the value of a - b is " + (a - b));
+            System.out.println("the value of a * b is " + (a * b));
+            System.out.println("the value of a / b is " + (a / b));
+            System.out.println("the value of a % b is " + (a % b));
+            sc.close();
+        }
+    } */
+
+
+    //urnary operators : ++ , --
+
+   /*  import java.util.*;
+    public class JavaBasics {
+        public static void main(String args[]){
+            // int a = 10;
+            // int b= ++a;
+            // System.out.println(a);
+            // System.out.println(b);
+            
+
+            // int a = 10;
+            // int b= a++;
+            // System.out.println(a);
+            // System.out.println(b);
+
+            int c = 10;
+            int d= --c;
+            System.out.println(c);
+            System.out.println(d);
+            int e = 10;
+            int f= e--;
+            System.out.println(e);
+            System.out.println(f);
+         }
+    }*/
