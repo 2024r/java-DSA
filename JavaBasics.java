@@ -7,7 +7,7 @@
         System.out.println("***");
         System.out.println("**");
         System.out.println("*");
-            }   
+   }   
 }*/     
 
 
@@ -191,3 +191,112 @@ import java.util.*;
 
 
 
+//  TYPE EXPRESSION IN JAVA
+/* 
+import java.util.*;
+
+public class JavaBasics {
+
+    public static void main(String args[]){
+      short a=10;
+      byte b = 25;
+      char c= 'c';
+      byte bt = (byte) (a + b + c);
+      System.out.println(bt);
+
+
+    }
+}*/
+/*
+import java.util.*;
+
+public class JavaBasics{
+    public static void main(String args[]){
+        int a= 10 ;
+        float b = 20.5f;
+        long c=25;
+        double d = 30;
+        int ans =a + b + c + d;
+    
+        System.out.println(ans);
+    }
+     //out will be cannot convert from double to int
+}
+
+import java.util.*;
+
+public class JavaBasics{
+    public static void main(String args[]){
+     byte b= 5;
+     byte a= byte (b * 2);
+     System.out.println(a);
+*/ 
+
+ //In a program, input 3 numbers: A, B andC. Youhave to output the average of
+ //these 3 numbers
+
+ /*
+ 
+ import java.util.*;
+ public class JavaBasics{
+    public static void main(String args[]){
+        Scanner sc= new Scanner(System.in);
+        int A= sc.nextInt();
+
+        int B=sc.nextInt();
+        int C=sc.nextInt();
+
+        int average = (A + B + C) / 3;
+        System.out.println( "the average :" + average);
+    }
+    
+ }
+
+
+ */
+
+
+  //In a program, input the side of a square. You have to output the area of the
+ //square
+
+/* 
+ import java.util.*;
+
+ public class JavaBasics {
+    public static void main(String args[]){
+        Scanner sc= new Scanner (System.in);
+        int side = sc.nextInt();
+        int area = side * side;
+        System.out.println( "area of the square " + area);
+        sc.close();
+    }
+ }
+    */
+
+
+
+   //  Enter cost of 3 items from the user (using float data type)- a pencil, a pen and
+ //an eraser. You have to output the total cost of the items back to the user as their bill.
+ //(Add on : You can also try adding 18% gst tax to the items in the bill as an advanced problem)
+   
+ 
+ 
+ 
+ /*  import java.util.*;
+
+ public class JavaBasics {
+    public static void main(String args[]){
+        Scanner sc= new Scanner (System.in);
+        float pencil = sc.nextFloat();
+        float  pen = sc.nextFloat();
+        float eraser = sc.nextFloat();
+        float total = pencil + pen + eraser;
+        System.out.println(total);
+        sc.close();
+
+        //adding 18% gst
+        float gst= total +(18*total)/100;
+        System.out.println(gst);
+    }
+ }
+    */
