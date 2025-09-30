@@ -344,3 +344,37 @@ public class JavaBasics{
             System.out.println(f);
          }
     }*/
+
+
+
+
+//RELATIONAL OPERATORS IN JAVA
+
+   /*  import java.util.*;
+    public class JavaBasics{
+        public static void main(String args[]){
+            int A = 10;
+            int B = 20;
+            System.out.println(A==B);
+            System.out.println(A!=B);
+            System.out.println(A>=B); 
+            System.out.println(A>B);
+
+        }
+    }*/
+
+
+//LOGICAL OPERATORS IN JAVA
+
+/*import java.util.*;
+public class JavaBasics{
+    public static void main(String args[]){
+        System.out.println( (5 > 3) && (8 > 5) );
+        System.out.println( (5 > 3) || (8 < 5) );   
+        System.out.println( !(5 > 3) );
+    }
+} */
+
+
+//ASSIGNMENT OPERATORS IN JAVA
+
