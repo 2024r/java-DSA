@@ -378,3 +378,39 @@ public class JavaBasics{
 
 //ASSIGNMENT OPERATORS IN JAVA
 
+/*import java.util.*;
+public class JavaBasics{
+    public static void main(String args[]){
+        int a = 10;
+        a += 5; // a = a + 5
+        System.out.println(a);
+        a -= 3; // a = a - 3
+        System.out.println(a);
+        a *= 2; // a = a * 2
+        System.out.println(a);
+        a /= 4; // a = a / 4
+        System.out.println(a);
+        a %= 6; // a = a % 6
+        System.out.println(a);
+    }
+}*/
+
+//quetion 
+/*import java.util.*;
+public class JavaBasics{
+    public static void main(String args[]){
+        int x = 10, y = 20;
+
+        int exp1= (x*y/x);
+        int exp2 =(x*(y/x));
+        System.out.println(exp1 +" ,");
+        System.out.println(exp2);
+    }
+}*/
+
+
+
+
+
+//CONDITIONAL STATEMENTS IN JAVA
+
