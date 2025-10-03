@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JavaBasic",
+            "request": "launch",
+            "mainClass": "JavaBasic",
+            "projectName": "java_688219b"
+        },
+        {
+            "type": "java",
             "name": "JavaBasics",
             "request": "launch",
             "mainClass": "JavaBasics",

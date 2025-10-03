@@ -414,3 +414,61 @@ public class JavaBasics{
 
 //CONDITIONAL STATEMENTS IN JAVA
 
+
+/*public class JavaBasics{
+    public static void main(String args[]){
+        int age = 17;
+        if ( age >= 18){
+            System.out.println(" adult: drink , drive ,marrage , vote ");
+        }
+        if ( age >16 && age <18){
+            System.out.println("teenager: drive , marrage , vote");
+        }
+
+        else {
+            System.out.println("not adult: shit at home and study");
+        }
+    }*/
+
+
+    // print the largest number 
+     
+ /*    public class JavaBasics{
+        public static void main(String args[]){
+            Scanner sc= new Scanner(System.in);
+            int a= sc.nextInt();
+            int b=sc.nextInt();
+
+
+            if( a>b ){
+                System.out.println( "  a is a largest number ");
+            }
+            else {
+                System.out.println("b is largest number ");
+            }
+
+           sc.close();
+        }
+    }
+
+
+   */
+  
+   //odd and even
+import java.util.*;
+
+    public class JavaBasics{
+        public static void main(String args[]){
+            Scanner sc= new Scanner(System.in);
+            int a= sc.nextInt();
+           
+            if ( a%2==0){
+                System.out.print( " even");
+            }
+            else {
+                System.out.print("odd");
+            }
+        }
+    }
+   
+
