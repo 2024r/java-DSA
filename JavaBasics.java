@@ -455,7 +455,7 @@ public class JavaBasics{
    */
   
    //odd and even
-import java.util.*;
+/*import java.util.*;
 
     public class JavaBasics{
         public static void main(String args[]){
@@ -470,5 +470,72 @@ import java.util.*;
             }
         }
     }
+  */
+  
+  
+  // else if statement 
+
+ /*  import java.util.*;
+  public class JavaBasics{
+  public static void main(String args[]){
+  int C = 15;
    
+  if ( C >=18){
+    System.out.println("adult");
+  }
+  else if (C >13 && C < 18){
+    System.out.println("teenager");
+  }
+  else {
+    System.out.println("not adult");
+  }     
+    }
+
+
+}*/
+
+//INCOME TAX CALCULATOR 
+/* 
+import java.util.*;
+public class JavaBasics{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int income = sc.nextInt();
+        int tax = 0;
+
+        if ( income < 500000){
+            System. out .println(tax= tax*0);
+        
+        } 
+        else if ( income >=500000 && income <=1000000){
+            System.out.println( tax = income * 20/100);
+        }
+        else {
+            System.out.println(tax = income * 30/100);
+        }
+    }
+}*/
+
+
+//ternary operator in java
+/*import java.util.*;
+public class JavaBasics{
+    public static void main(String args[]){
+        int number =4;
+        String type = (number % 2 ==0) ? "even" : "odd";
+        System.out.println(type);
+    }
+}*/
+
+
+/*import java.util.*;
+public class JavaBasics{
+    public static void main(String args[]){
+        int marks =34;
+        String type = (marks >=33) ? "pass" : "fail";
+        System.out.println(type);
+    }
+    }*/
+
+     
 
