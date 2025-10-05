@@ -537,5 +537,56 @@ public class JavaBasics{
     }
     }*/
 
+
+    //SWITCH  STATEMENT IN JAVA
      
+
+/*import java.util.*;
+public class JavaBasics{ 
+    public static void main(String args[]){
+        int number = 8;
+        switch (number){ 
+            case 1 :System.out.println("samosa");
+            break;
+            case 2 :System.out.println("burger");
+            break;  
+            case 3 :System.out.println("pizza");
+            break;  
+            default : System.out.println("gareeb");
+
+    }
+   }
+}*/
+
+// calculator using switch statement
+
+import java.util.*;
+public class JavaBasics{
+    public static void main(String args[]) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("enter the a");
+
+        int a= sc.nextInt();
+        System.out.println("enter the b");
+        int b= sc.nextInt();
+        System.out.println("enter the Operator");
+        char op = sc.next().charAt(0);
+
+        switch(op){
+            case '+' : System.out.println(a + b);
+            break;
+            case '-' : System.out.println(a - b);
+            break;
+            case '*' : System.out.println(a * b);
+            break;
+            case '/' : System.out.println(a / b);
+            break;
+            case '%' : System.out.println(a % b);
+            break;
+            default : System.out.println("invalid");
+
+        }
+    }
+}
+
 
