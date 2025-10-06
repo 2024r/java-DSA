@@ -560,7 +560,7 @@ public class JavaBasics{
 
 // calculator using switch statement
 
-import java.util.*;
+/*import java.util.*;
 public class JavaBasics{
     public static void main(String args[]) {
         Scanner sc= new Scanner(System.in);
@@ -587,6 +587,110 @@ public class JavaBasics{
 
         }
     }
-}
+}*/
 
+
+//Question   Write a Javaprogram that takes a year from the user and print whether thatyear is a leap year or not.
+
+/*import java.util.*;
+public class JavaBasics{
+    public static void main(String args []){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the year");
+        int year = sc.nextInt();
+
+        boolean x= (year % 4 ==0);
+        boolean y= (year % 100 !=0);
+        boolean z= (year % 400 ==0);
+        if ( x && y || z){
+            System.out.println("leap year");
+        }
+        else {
+            System.out.println("not leap year");
+        }
+        
+
+    }
+}
+ */
+
+
+
+ // write a java program to input week number (1-7)and print day of week name using switch case 
+ 
+/* import java.util.*;
+ public class JavaBasics{
+    public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the week number");
+        int week = sc.nextInt();
+        switch(week){
+            case 1 : System.out.println("monday");
+            break;
+            case 2 : System.out.println("tuesday");
+            break;
+            case 3 : System.out.println("wednesday");
+            break;
+            case 4 : System.out.println("thursday");
+            break;
+            case 5 : System.out.println("friday");
+            break;
+            case 6 : System.out.println("saturday");
+            break;
+            case 7 : System.out.println("sunday");
+            break;
+            default : System.out.println("invalid");
+        }
+    }
+
+ }*/
+
+
+ //loops in java
+ /*import java.util.*;
+ public class JavaBasics{
+    public static void main(String args[]){
+         int counter=0;
+
+         while(counter < 5){
+            System.out.println("hello world");
+            counter++;
+         }
+    }
+
+ }*/
+
+
+    
+  /*  import java.util.*;
+    
+    public class JavaBasics{
+        public static void main(String args[]){
+            int counter=1;
+            while(counter <=100){
+                System.out.print(counter);
+                counter++;
+            }
+        }
+    
+     }
+*/
+
+//print numbers from n to 1
+
+import java.util.*;
+public class JavaBasics{
+    public static void main(String args[]){
+        Scanner sc= new Scanner(System.in);
+        int range = sc.nextInt();
+        int counter =1;
+
+        while(counter <=range){
+            System.out.print(counter + "  ");
+            counter++;
+        }
+        System.out.println();
+    }
+
+ }
 
