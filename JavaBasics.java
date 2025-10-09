@@ -678,7 +678,7 @@ public class JavaBasics{
 
 //print numbers from n to 1
 
-import java.util.*;
+/*import java.util.*;
 public class JavaBasics{
     public static void main(String args[]){
         Scanner sc= new Scanner(System.in);
@@ -693,4 +693,176 @@ public class JavaBasics{
     }
 
  }
+*/
 
+
+// print sum of first n natural numbers
+
+/*import java.util.*;
+public class JavaBasics{
+    public static void main(String args[]){
+        Scanner sc= new Scanner( System.in);
+        int n = sc.nextInt();
+        int sum=0;
+ 
+        int i =1;
+        while(i <= n){
+            sum += i;
+            i++;
+        }
+        System.out.println(sum);
+    }
+
+}
+*/
+
+
+//for loop
+/*import java.util.*;
+public class javaBasics{
+    public static void main(String args[]){
+        //int i =1;
+        for (int i =1; i<=10; i++){
+            System.out.println("hello world");
+        }
+    }
+}*/
+
+//print square pattern
+/*import java.util.*;
+public class javaBasics{
+    public static void main(String args[]){
+       // for(int line=1; line<=4; line++){
+         //   System.err.println("****");
+       int line =1;
+       while(line <=4){
+        System.out.println("****");
+        line++;
+       }
+
+        }
+
+    }
+*/
+
+
+//print reverse of a number
+
+/*import java.util.*;
+public class javaBasics{
+    public static void main(String args[]){
+    int n = 1234;
+     
+    while (n>0){
+        int lastdigit = n%10;
+
+        System.out.print(lastdigit);
+        n = n/10;
+    }
+    System.out.println();
+    }
+}
+*/
+
+
+//reverse the given number
+
+/*import java.util.*;
+public class javaBasics{
+    public static void main(String[] args) {
+        int n = 1234;
+        int reverse=0;
+        
+        while (n>0) 
+        { 
+            int lastdigit = n%10;
+            reverse = reverse * 10 + lastdigit;
+            n = n/10;
+            
+        }
+        System.out.println(reverse);
+    }
+}*/
+
+
+
+
+// do while loop in java
+
+
+/*import java.util.*;
+public class javaBasics{
+    public static void main(String[] args) {
+        int counter =1;
+        do {
+            System.out.println("hello world");
+            counter++;
+        } while (counter <=10);
+    }
+}
+    */
+//break statement in java
+
+/*import java.util.*;
+public class javaBasics{
+    public static void main(String[]args){
+        for (int i=1;i<=5;i++){
+            if( i==3){
+                break;
+            }System.out.println(i);
+        }System.out.println("hello world");
+    }
+}    */
+
+
+// question break keyword in java
+ /*import java.util.*;
+ public class javaBasics{
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+
+        do{
+            System.out.println("enter the number");
+            int n = sc.nextInt();
+
+            if ( n%10==0){
+                break;
+            }
+            System.out.println(n);
+        }while(true);
+
+    }
+ }
+*/
+
+//continue statement in java
+
+/*import java.util.*;
+public class javaBasics{
+
+      public static void main(String[] args) {
+        for (int i=1; i<=5; i++){
+            if (i == 4){
+                continue;
+            }
+            System.out.println(i);
+        }
+      }
+}*/
+
+import java.util.*;
+public class javaBasics{
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+         
+        do{
+            System.out.println("enter the number");
+            int n = sc.nextInt();
+            if (n%10==0){
+                continue;
+            }
+            System.out.println("number is " + n);
+
+        }while(true);
+    }
+}
