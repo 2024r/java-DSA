@@ -849,7 +849,7 @@ public class javaBasics{
         }
       }
 }*/
-
+/* 
 import java.util.*;
 public class javaBasics{
     public static void main(String[] args) {
@@ -864,5 +864,108 @@ public class javaBasics{
             System.out.println("number is " + n);
 
         }while(true);
+    }
+}*/
+
+
+
+//check if a number is primr is not
+
+/*import java.util.*;
+public class javaBasics{
+    public static void main( String args[]){
+        Scanner sc= new Scanner(System.in);
+        int n= sc.nextInt();
+
+
+        if(n==2){
+            System.out.println("prime");
+            
+        }else{ 
+            boolean isPrime = true;
+        for (int i=2; i<=Math.sqrt(n); i++){
+            if(n% i==0){
+                isPrime = false;
+            }
+        }
+        if (isPrime == true){
+            System.out.println("prime");
+        }
+        else {
+            System.out.println("not prime");
+        }
+
+        }
+       
+    }
+}*/
+
+
+// Write a program that reads a set of integers,and then prints the sum of the
+ //even and odd integers
+
+// import java.util.*; 
+// public class javaBaiscs{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+     
+//         int number;
+//         int choice;
+//         int evenSum =0;
+//         int oddSum =0;
+
+//         do {
+//             System.out.println("enter the number");
+//             number = sc.nextInt();
+
+//             if ( number % 2 ==0){
+//                 evenSum += number;
+//             }
+//             else {
+//                 oddSum += number;
+//             }
+
+//             System.out.println(" do u want to continue ? if yes then press 1");
+
+//             choice = sc.nextInt();
+
+//         }while ( choice ==1);
+//         System.out.println("sum of even number " + evenSum);
+//         System.out.println("sum of odd number " + oddSum);
+//     }
+// }
+
+
+import java.util.Scanner;
+
+public class SumEvenOdd {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int n;  
+        int evenSum = 0;
+        int oddSum = 0;
+        
+        System.out.print("Enter how many numbers you want to input: ");
+        n = sc.nextInt();  // user decides how many numbers to input
+        
+        System.out.println("Enter " + n + " integers:");
+        
+        for (int i = 0; i < n; i++) {
+            int num = sc.nextInt();  // read a number
+            
+            // Check even or odd
+            if (num % 2 == 0) {
+                evenSum += num;   // add to even sum
+            } else {
+                oddSum += num;    // add to odd sum
+            }
+        }
+        
+        // Print results
+        System.out.println("Sum of even numbers: " + evenSum);
+        System.out.println("Sum of odd numbers: " + oddSum);
+        
+        sc.close(); // good practice to close Scanner
     }
 }
