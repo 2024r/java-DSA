@@ -935,7 +935,7 @@ public class javaBasics{
 //     }
 // }
 
-
+/* 
 import java.util.Scanner;
 
 public class SumEvenOdd {
@@ -969,3 +969,45 @@ public class SumEvenOdd {
         sc.close(); // good practice to close Scanner
     }
 }
+*/
+
+
+//nested loops in java
+
+// paterns 
+/*
+import java.util.Scanner;
+public class javaBasics{
+    public static void main(String args[]){
+        for(int line=1; line<=20;line++){
+            for(int star =1; star<=line ; star++){
+                System.out.print("*");
+            }
+            {
+                System.out.println();
+            }
+        }
+    }
+}*/
+
+//inverted pattern in java
+
+import java.util.Scanner;
+public class javaBasics{
+    public static void main(String args[]){
+        int n=7;
+         for( int line =1 ; line<=n; line++ ){
+            for(int star=1;star<=n-line+1; star++){
+                System.out.print("*");
+            } 
+             System.out.println();
+         }
+        
+    }
+}
+
+
+
+
+
+
