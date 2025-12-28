@@ -992,7 +992,7 @@ public class javaBasics{
 
 //inverted pattern in java
 
-import java.util.Scanner;
+/*import java.util.Scanner;
 public class javaBasics{
     public static void main(String args[]){
         int n=7;
@@ -1004,7 +1004,88 @@ public class javaBasics{
          }
         
     }
+}*/
+
+//print half pyramid
+/*public  class JavaBasics{
+    public static void main(String args[]){
+        int n=5;
+        for ( int i=1; i<=n; i++){
+            for (int j=1; j<=i; j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
 }
+
+    
+*/
+
+
+
+//print character pattern
+
+/*public class JavaBasics {
+    public static void main(String argd[]){
+        int n =4 ;
+        char ch = 'A';
+        
+        //outer loop
+        for ( int line =1; line<=n; line++){
+            //inner loop
+            for (int chars =1; chars<=line; chars++){
+                System.out.print(ch);
+                ch++;
+            }
+            System.out.println();
+        }
+    }
+}
+*/
+
+// FUNCTION / METHODS IN JAVA
+
+/*public class JavaBasics{
+    public static void helloworld(){
+        System.out.println("hello world");
+        System.out.println("hello world");
+        System.out.println("hello world"); 
+        return;
+    }
+    public static void main (String args[]){
+        helloworld();
+    }
+}*/
+
+import java.util.*;
+public class JavaBasics{
+    public static void calculatesum(){
+        Scanner sc =new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a+b;
+        System.out.println("sum is " + sum);
+    }
+    public static void main (String args[]){
+        calculatesum();
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
