@@ -1016,7 +1016,7 @@ public class javaBasics{
             }
             System.out.println();
         }
-    }
+    } 
 }
 
     
@@ -1058,22 +1058,90 @@ public class javaBasics{
     }
 }*/
 
-import java.util.*;
+// syntax with parameters
+
+/*import java.util.*;
 public class JavaBasics{
-    public static void calculatesum(){
+    public static  int calculatesum(int num, int num2){ //  parameter of formal parameter
+        
+        int sum = num+num2;
+        return sum;
+            }
+    public static void main (String args[]){
+        
         Scanner sc =new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int sum = a+b;
+        int sum = calculatesum(a, b);   // argument or actual parameter
         System.out.println("sum is " + sum);
-    }
-    public static void main (String args[]){
-        calculatesum();
+
     }   
+}*/
+
+/*import  java.util.*;
+public class JavaBasics{
+
+    public static void swap ( int a , int b) {
+         // swap
+    int temp = a ;
+    a=b;
+    b=temp;
+    System.out.println(" a is " + a);
+    System.out.println(" b is " + b);
+
+
+
+} 
+public static void main ( String args[]){
+    // swaping -values exhange 
+    int a = 10;
+    int b = 20;
+    swap(a,b);
+
+   
 }
 
+}
+*/
+
+//FIND A PRODUCT OF  a & b USING FUNCTION
+
+/*import java.util.*;
+public class JavaBasics{
+    public static int multiply ( int a, int b){
+        int product = a*b;
+        return product;
+
+    }
+
+public static void main (String args[]){
+    int a= 3;
+    int b= 5;
+    int prod = multiply(a, b);
+    System.out.println(" a*b =" + prod);
+    prod = multiply(30,50);
+    System.out.println(" a*b =" + prod);
+} 
+}*/
 
 
+import java.util.*;
+public class JavaBasics {
+
+    public static int factorial(int n){
+        int  f = 1;
+
+        for(int i=1 ;i<=n; i++ ){
+            f = f * i;
+        }
+        return f;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(factorial(4));
+
+    }
+}
 
 
 
