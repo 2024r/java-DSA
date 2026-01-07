@@ -1125,7 +1125,7 @@ public static void main (String args[]){
 } 
 }*/
 
-
+/* 
 import java.util.*;
 public class JavaBasics {
 
@@ -1155,9 +1155,55 @@ public class JavaBasics {
 
     }
 }
+*/import java.util.*;
+public class JavaBasics {
 
+   /*  public static int sum(int a, int b) {
+        return a + b;
 
+}
+public static int sum(int a, int b, int c) {
+    return a + b + c;
+}*/
 
+//fun to calculate int sum
+public static int sum(int a, int b) {
+    return a + b;
+}
+//fun to calculate float sum
+public static float sum(float a, float b) {
+    return a + b ;
+}
+
+//public static boolean isprime(int n) {
+  //  boolean isprime = true;
+   // for (int i=2; i<=n-1; i++) {
+     //   if( n % i==0){
+       //     isprime = false;
+         //   break;
+       // }
+   // }
+   // return isprime;
+//}
+//OPTIMISED CODE 
+public static boolean isprime(int n){
+    if(n==2){
+        return true;
+    }
+    for(int i=2; i<=Math.sqrt(n); i++){
+        if ( n % i==0){
+            return false;
+        }
+    }
+    return true;
+}
+public static void main(String args[]){
+    System.out.println(sum(03, 05) );
+    System.out.println(sum(1.5f,3.7f));
+    System.out.println(isprime(28));
+    System.out.println(isprime(17));
+}
+}
 
 
 
